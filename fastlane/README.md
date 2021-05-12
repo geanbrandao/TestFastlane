@@ -21,16 +21,16 @@ or alternatively using `brew install fastlane`
 fastlane android test
 ```
 Runs all the tests
-### android beta
+### android build
 ```
-fastlane android beta
+fastlane android build
 ```
-Submit a new Beta Build to Crashlytics Beta
-### android deploy
+Build the Android application.
+### android betaAppCenter
 ```
-fastlane android deploy
+fastlane android betaAppCenter
 ```
-Deploy a new version to the Google Play
+Build and upload to App Center.
 
 ----
 
