@@ -31,11 +31,12 @@ android:
     - sys-img-armeabi-v7a-android-17
     
 # whitelist
-branches:
-  only:
-    - main
-    - PRESENTATION
-    - teste
+#branches:
+ # only:
+  #  - main
+   # - PRESENTATION
+    #- teste
+
     
   licenses:
     - 'android-sdk-preview-license-52d11cd2'
