@@ -5,7 +5,7 @@ install:
   - bundle install
 script:
   - fastlane all
-
+# roda todas as lanes do fastfile
 android:
   components:
     # Uncomment the lines below if you want to
@@ -33,7 +33,8 @@ android:
 # whitelist
 branches:
   only:
-    - develop
+    - main
+    - PRESENTATION
     
   licenses:
     - 'android-sdk-preview-license-52d11cd2'
